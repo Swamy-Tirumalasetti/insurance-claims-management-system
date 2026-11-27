@@ -6,6 +6,7 @@ import lombok.*;
 @Entity
 @Table(name = "claim_documents")
 @Data
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
 public class ClaimDocument {

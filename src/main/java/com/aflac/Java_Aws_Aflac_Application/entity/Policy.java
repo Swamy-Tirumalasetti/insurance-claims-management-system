@@ -8,6 +8,7 @@ import java.math.BigDecimal;
 @Entity
 @Table(name = "policies")
 @Data
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
 public class Policy {
